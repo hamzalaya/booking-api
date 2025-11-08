@@ -1,0 +1,27 @@
+2025-11-08T16:36:10.754+01:00  INFO 67104 --- [nio-8080-exec-1] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    25500 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    3044167 nanoseconds spent preparing 2 JDBC statements;
+    2624000 nanoseconds spent executing 2 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    6004000 nanoseconds spent executing 1 flushes (flushing a total of 1 entities and 3 collections);
+    0 nanoseconds spent executing 0 pre-partial-flushes;
+    115417 nanoseconds spent executing 1 partial-flushes (flushing a total of 1 entities and 1 collections)
+}
+
+2025-11-08T16:40:57.293+01:00  INFO 68810 --- [nio-8080-exec-1] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    24083 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    2569416 nanoseconds spent preparing 2 JDBC statements;
+    1459458 nanoseconds spent executing 2 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    378167 nanoseconds spent executing 1 flushes (flushing a total of 1 entities and 3 collections);
+    0 nanoseconds spent executing 0 pre-partial-flushes;
+    51833 nanoseconds spent executing 1 partial-flushes (flushing a total of 1 entities and 1 collections)
+}

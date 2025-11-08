@@ -57,6 +57,11 @@ we can use also distributed lock system based on a cache system such as Redis
 The api use optimised queries, to check overlapping bookings/blocks, I did a test in h2 base with over
 1 Millions bookings and 5K blocks, and the execution time of the overlap query is 1ms
 
+### Error handling
+
+The api handle exceptions, and return the error message with needed information: it can be a good base
+to handle all errors with appropriate codes and internationalized messages
+
 ### Tests
 
 The api is tested using only integration tests for booking that handle the most used use cases.
